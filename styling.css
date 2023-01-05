@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(143,11,66);
+    color: rgb(255,0,204);
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(143,11,66);
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 50vw;
+    height: 85vh;
+    border-style: inset;
+    border-width: 10px;
+}
+
+#section1 {
+    background-color: green;
+    color: goldenrod;
+}
+
+#section2 {
+    color: green;
+    background-color: goldenrod;
+    overflow: auto;
+}
+
+#section2 >div >div >div {
+  border-style: none none dashed none;
+  border-width: 1px;
+  border-color: rgb(41, 116, 129);
+} 
+
+div {
+    padding: 10px 5px;
+}
+
+#game {
+    padding: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+button {
+    background-color: goldenrod;
+    color:rgb(41, 116, 129);
+    padding: 5px 20px;
+    margin: 5px;
+    font-weight: bold;
+}
